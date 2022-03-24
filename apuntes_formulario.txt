@@ -1,0 +1,62 @@
+// Para hacer formularios en HTML debemos seguir los siguientes pasos
+
+1.- Crear etiqueta <form></form>
+
+2.- Darle a <form> un metodo que indica como se va a recibir nuestra informacion, por ejemplo:
+
+<form method="get"> // Sería mas inseguro ya que se vera en la url
+<form method="post"> // Sería el mas seguro ya que sería codificado por el protocolo HTP
+
+3.- La informacion que enviemos por un formulario será recibira por un archivo, por ejemplo un archivo PHP
+
+<form method="get" action="datos.php">
+
+4.- En un formulario nos encontraremos con elementos de tipo <input> que nos permiten enviar datos, algunos de ellos son:
+<input type="text"> // Caja de texto donde escribir
+<input type="password"> //Lo que se escribirá dentro será una cotraseña
+<input type="date"> // Indica que se usará un tipo de dato fecha
+<input type "submit"> //Este elemento, al ser incluido dentro de un <p> parrafo se encarga de enviar todas las etiquetas <input> anteriores y sus datos
+<input type="radio"> //Genera una opcion de selección normalmente única para el usuario, por ejemplo, para elegir entre 2 o 3 opciones
+<input type="checkbox"> // Genera unas cajas en las que al hacer click se rellena la opcion con una V de check, suele usarse para seleccionar varias opciones
+
+4.1 Los elementos <input> además cuentan con:
+
+4.1.2 Un elemento <name> que puede o no ser único, en caso de querer una unica opcion seleccionable
+todos los input deben tener el mismo nombre.
+<name> puede ser de tipo Lista, lo que permite la seleccion multiple de elementos
+  <input type="checkbox" name="comida[]" value="pizza" id="idPizza">
+
+4.1.3 Un elemento <value> que ofrece información más específica del tipo de dato a almacenar
+  <input type="radio" name="genero" value="hombre" id = "idHombre" checked>
+
+4.1.4 Un elemento <id> ofrece un identificación único para ese elemento en ese documento, a través del cual se le puede asignar a una etiqueta <label>,
+por ejemplo
+
+5.- Los elementos <label> en un documento HTML nos permiten enlazar, por ejemplo, el <id> de un <input> y facilitar al usuario la selección de opciones
+
+        <input type="radio" name="genero" value="hombre" id = "idHombre" checked> // Aquí definimos el input con un <id> unico
+        <label for="idHombre">Hombre // Através de un label apuntamos a ese <id>, por lo que al hacer click en esa <label> nos marcaría el input correspondiente
+        </label>
+
+5.1 <label> usa el atributo <for> para apuntar a un <id>
+
+
+6.- Los elementos <select> nos permiten crear menus desplegables donde el usuario puede elegir entre unas opciones ya definidas
+Su sintaxis es la siguiente
+
+<select name="helados" id="cartadehelados"> // Sería la declaracion con su <nombre> e <id> que sería unico
+
+Para las opciones que se incluirán dentro del desplegable se usan los <option> que con el uso de atributos <value> nos permiten dar un valor al elemento que contienen
+
+<option value="pizza">Pizza</option>
+
+7.- Los menus desplegables con listas permiten seleccionar elementos ya definidos o definir otro
+Su sintaxis seria
+      <p>
+        <label for="idComidaFavList">Comida FAV</label>
+        <input list="ComidaFavList" name="NameComidaFavList" id="idComidaFavList">
+        <datalist id="ComidaFavList">
+          <option value="Migas"/>
+          <option value="Pizza"/>
+        </datalist>
+     </p>
