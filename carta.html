@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form method="get" action="almacenar.php">
+<p>
+<label for="idcliente">
+  Nombre del cliente:
+</label>
+<input type="text" name="cliente" id="idcliente" placeholder="Nombre del cliente"><br/><br/>
+
+<label for="idfecha">
+  Fecha de atención:
+</label>
+<input type="date" name="fecha" id="idfecha"><br/><br/>
+
+<label for="idhora">
+  Fecha de entrega:
+  </label>
+<input type="time" name="hora" id="idhora">
+
+</p>
+
+<p>
+<label for="idservicio">Tipo de Servicio: </label>
+<select name="servicio" id="idservicio">
+  <option value="domicilio">Para Llevar</option>
+  <option value="restaurante">En mesa</option>
+</select>
+</p>
+
+<p>
+Bebida: <br/>
+<input type="radio" name="bebida" value="agua" id="idagua">
+<label for="idagua">Agua 1L</label><br>
+
+<input type="radio" name="bebida" value="zumito" id="idzumito">
+<label for="idzumito">Zumo de Melocotón</label>
+
+</p>
+
+<p>
+Primer Plato: <br/>
+<input type="checkbox" name="primeros[]" value="carne" id="idcarne">
+<label for="idcarne">Carne en Salsa</label><br>
+
+<input type="checkbox" name="primeros[]" value="pescado" id="idpescado">
+<label for="idpescado">Lubina</label><br>
+
+<input type="checkbox" name="primeros[]" value="paella" id="idpaella">
+<label for="idpaella">Paella Xl</label><br>
+
+<input type="checkbox" name="primeros[]" value="pizza" id="idpizza">
+<label for="idpizza">Pizza</label><br>
+
+<input type="checkbox" name="primeros[]" value="ensaladilla" id="idensaladilla">
+<label for="idensaladilla">Ensaladilla Rusa</label><br>
+</p>
+
+<p>
+<label for="idpostres"> Postres </label>
+<input list="postres" name="lospostres" id="idpostres">
+<datalist id="postres">
+<option value="Helado de cocholate"/>
+<option value="Melón"/>
+<option value="Tarta de queso"/>
+</datalist>
+</p>
+
+<p>
+<label for="idpropina">Propina a servicio:</label>
+<input list="propinas" name="lapropina" id="idpropina">
+<datalist id="propinas">
+<option value="5€"/>
+<option value="10€"/>
+<option value="15€"/>
+<option value="20€"/>
+<option value="50€"/>
+</datalist>
+</p>
+
+<p>
+<input type="submit" value="Enviar a Cocina!">
+</p>
+      </form>
+
+  </body>
+</html>
