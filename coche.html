@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+<form action="datos.php" method="get" target="_blank">
+  <p>
+    <h1>Simulacro Examen Formulario</h1>
+    <h3>Nombre: David Molina Morales</h3>
+  </p>
+
+<p>
+  <fieldset> <legend>Datos personales: </legend>
+  <fieldset> <legend>Nombre: </legend>
+      <label for="idnombre">Tu nombre:</label>
+      <input type="text" name="nombre" id="idnombre">
+
+</fieldset></p>
+
+<p>
+  <fieldset> <legend>Nick de Usuario: </legend>
+      <label for="idnick">Tu Nick: </label>
+      <input type="text" name="nick" id="idnick">
+
+</fieldset></p>
+
+<p>
+  <fieldset> <legend>Edad: </legend>
+      <label for="idedad">Tu edad: </label>
+      <input type="number" name="edad" id="idedad">
+
+</p></fieldset>
+
+<p>
+  <fieldset> <legend>Teléfono: </legend>
+      <label for="idphone">Tu teléfono:</label>
+      <input type="phone" name="phone" id="idphone">
+
+</p></fieldset>
+
+<p>
+<fieldset> <legend>Carnet: </legend>
+  <label for="idcarnet">Tu carnet de conducir:</label>
+<select name="tucarnet" id="idcarnet">
+<option value="A">A</option>
+<option value="B">B</option>
+<option value="C">C</option>
+</select>
+</p>
+  </fieldset>
+</fieldset>
+
+<p>
+<fieldset> <legend>Datos del vehiculo: </legend>
+  <fieldset> <legend>Tipo de vehiculo: </legend>
+<input type="radio" name="vehiculo" value="turismo" id="idturismo">
+<label for="idturismo">Turismo</label>
+<input type="radio" name="vehiculo" value="deportivo" id="ideportivo">
+<label for="ideportivo">Deportivo</label>
+<input type="radio" name="vehiculo" value="sub" id="idsub">
+<label for="idsub">Sub</label>
+<input type="radio" name="vehiculo" value="todoterreno" id="idtodoterreno">
+<label for="idtodoterreno">Todotereno</label>
+</p></fieldset>
+
+<fieldset> <legend>Datos del vehiculo: </legend>
+
+  <fieldset> <legend>Marca de vehiculo: </legend>
+    <label for="idmarcas">Tu marca de vehiculo:</label>
+  <select name="idmarca" id="idmarcas">
+  <option value="audi">Audi</option>
+  <option value="volkswagen">Volkswagen</option>
+  <option value="tesla" selected>Tesla</option>
+  <option value="tesla">Mercedes</option>
+  <option value="tesla">Ferari</option>
+  <option value="tesla">Seat</option>
+  <option value="tesla">BMW</option>
+  <option value="tesla">Porsche</option>
+  </select>
+</fieldset>
+
+<p>
+  <fieldset> <legend>Modelo de vehiculo: </legend>
+    <label for="elegirmodelo">Tu modelo de vehiculo:</label>
+    <input list="idmodelo" name="modelo" id="elegirmodelo">
+    <datalist id="idmodelo">
+      <option value="tu coche" selected/>
+      <option value="mi coche" selected/>
+    </datalist>
+</fieldset>
+</p>
+</fieldset>
+
+<p>
+  <input type="submit" value="Enviar Datos"></input>
+</p>
+    </form>
+  </body>
+</html>
