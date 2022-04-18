@@ -1,0 +1,37 @@
+body {
+  background-color: rgb(0,200,255, 0.5);
+  background-image: url(https://media3.giphy.com/media/xUA7bibMNQQqk2U46s/giphy.gif?cid=790b7611927c1cb6df76d3a137f0af1bf9071da482f7ef81&rid=giphy.gif&ct=g);
+  /*  #00c8ff // hsl(192, 100%, 50%)  */
+  opacity: 0.5;
+
+  font-family: monospace;
+  color: blue;
+  text-align: center;
+
+}
+
+h1 {
+  background-color: dodgerBlue;
+  border-style: dotted solid groove hidden;
+  color: blue;
+}
+
+p {
+  background-color: Slateblue;
+  color: purple;
+  border: 5px groove violet;
+  border-radius: 15px;
+  text-align: left;
+
+}
+
+.par {
+  font-style: oblique;
+  font-weight: bolder;
+}
+
+p.par{
+    color: yellow;
+    text-align: right;
+    border: 5px dotted violet;
+}
