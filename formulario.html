@@ -18,9 +18,11 @@
 
     Action => Tenemos que indicar que archivo lo recibe
     -->
-    <form method="get" action="procesamiento.php">
+    <form method="get" action="procesamiento.php" target="_blank" autocomplete novalidate>
+      <!-- target="self" -->
       <!-- Datos usuario -->
       <p>
+        <fieldset> <legend>Datos Personales: </legend>
       <label for="idUsuario">
         Usuario:
       </label>
@@ -35,24 +37,23 @@
           Fecha de Nacimiento:
         </label>
         <input type="date" name="fechaNac" id = "idfechaNac">
-
+      </fieldset>
       </p>
       <!-- Button -->
-      <p>
-        <input type="submit" value="Click Aquí"></input>
-      </p>
 
-      <p>Elige tu genero:<br/>
+      <p>
+        <fieldset> <legend>Genero: </legend>
         <input type="radio" name="genero" value="hombre" id = "idHombre" checked>
         <label for="idHombre">Hombre</label><br/>
         <input type="radio" name="genero" value="mujer" id = "idMujer">
         <label for="idMujer">Mujer</label><br/>
         <input type="radio" name="genero" value="NoBinario" id = "idNoBinario">
         <label for="idNoBinario">No Binario</label><br/>
+      </fieldset>
       </p>
 
       <p>
-        Comida favorita: <br/>
+        <fieldset> <legend>Platos de Comida: </legend>
         <input type="checkbox" name="comida[]" value="CarneS" id="idCarneS">
         <label for="idCarneS">Carne en salsa</label><br/>
         <input type="checkbox" name="comida[]" value="lasana" id="idLasana" checked>
@@ -69,23 +70,61 @@
         <label for="idCroquetas">Croquetas</label><br/>
         <input type="checkbox" name="comida[]" value="migas" id="idMigas">
         <label for="idMigas">Migas con melón</label>
+      </fieldset>
       </p>
 
       <p>
+        <fieldset> <legend>Comida Favorita: </legend>
         <label for="idComidaFavSelect">Comida FAV</label>
-        <select name="ComidaFavSelect" id="idComidaFavoritaSelect">
+        <select name="ComidaFavSelect" id="idComidaFavSelect">
           <option value="Migas">Migas</option>
           <option value="Pizza">Pizza</option>
         </select>
+      </fieldset>
       </p>
 
       <p>
-        <label for="idComidaFavList">Comida FAV</label>
+        <label for="idComidaFavList"></label>
+        <fieldset> <legend>Comida FAV: </legend>
         <input list="ComidaFavList" name="NameComidaFavList" id="idComidaFavList">
         <datalist id="ComidaFavList">
           <option value="Migas"/>
           <option value="Pizza"/>
         </datalist>
+      </fieldset>
+     </p>
+
+     <p>
+       <label for="idtexto"></label><br/>
+       <fieldset> <legend>Añadir comentario:</legend>
+       <textarea name="texto" id="idtexto" rows="10" cols="30"></textarea><br><br/>
+
+       <!-- Lo normal es no poner ni filas ni columnas y ajustarlo con el css -->
+       <label for="idOtrotexto">Añadir comentario: </label><br><br/>
+       <textarea name="texto" id="idOtrotexto"></textarea>
+
+     </p>
+
+      <!-- Lista con inpt -->
+    Input boton: <input type="button"> <br>
+    Input checkbox:   <input type="checkbox"> <br>
+    Input color: <input type="color"><br>
+    Input fecha: <input type="date"><br>
+    Input email: <input type="email"><br>
+    Input archivo: <input type="file"><br>
+    Input consulta: <input type="image"><br>
+    Input mes <input type="month"><br>
+    Input numero: <input type="number">
+    Input reset: <input type="reset">
+    Input bsuqueda: <input type="search">
+    Input telefono: <input type="phone">
+    Input tiempo: <input type="time">
+    Input url: <input type="url">
+
+
+
+     <p>
+       <input type="submit" value="Click Aquí"></input>
      </p>
 
     </form>
