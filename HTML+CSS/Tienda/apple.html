@@ -13,7 +13,7 @@
     <header class="cabecera">
       <ul>
         <img src="src/apple.ico" alt="" width="27" height="27">
-        <li><a href="#">Store</a></li>
+        <li><a href="#">Inicio</a></li>
         <li><a href="pages/macbook.html">Mac</a></li>
         <li><a href="pages/iphone.html">iPhone</a></li>
         <li><a href="pages/ipad.html">iPad</a></li>
@@ -25,23 +25,30 @@
       </ul>
     </header>
     <nav class="navbar">
+      <div class="banner">
+
         <img class="phone" src="src/iphone.png" alt="Dale al play!" height="350px" width="350px">
 
-      <p>La Tienda<br>Donde empieza la magia
+      <p>La Tienda<br>Donde empieza la   magia
         <audio id="player" src="music/apple.mp3"></audio>
         <div class="icono">
-          <button class="player" onclick="document.getElementById('player').play()"><img class="apple" src="src/music.png" height="200px" width="350px" /></button>
+          <button class="player" onclick="document.getElementById('player').play()"><img class="apple" src="src/music.png"/></button>
         </div>
       </p>
+      </div>
       <ul>
-        <li><a class="logo" href="#"><img src="src/iphone-logo.png" width="90" height="30"></a> <br> <br> Potente. Rápido. Mágico</li>
-        <li><a class="logo" href="#"><img src="src/ipad-logo.png" width="70" height="30"></a> <br> <br> Tu próximo ordenador no es un ordenador </li>
-        <li><a class="logo" href="#"><img src="src/macbook-logo.png" width="155" height="36"></a> <br> <br> Di hola al futuro. Bienvenido Apple Silicon</li>
-      </ul>
-      <ul>
-        <li><a href="pages/iphone.html"><img src="src/iphone-se-2022.jpg" width="250" height="250"/></a>Dispositivos iPhone desde 499€ <br>Por 399€ si entregas tu anterior iPhone </li>
-        <li><a href="pages/ipad.html"><img src="src/ipad-air-m1.png" width="250" height="250"/></a>Dispositivos iPad desde 399€</li>
-        <li><a href="pages/macbook.html"><img src="src/macbook-pro-m1.png" width="400" height="230"/></a>Dispositivos Mac desde 999€</li>
+        <div class="iphones">
+          <li><a class="logo" href="#"><img src="src/iphone-logo.png" width="90" height="30"></a> <br> <br> Potente. Rápido. Mágico</li><br>
+          <li><a href="pages/iphone.html"><img src="src/iphone-se-2022.jpg" width="250" height="250"/></a>Dispositivos iPhone desde 499€ <br>Por 399€ si entregas tu anterior iPhone <br>*IVA incluido </li>
+        </div>
+        <div class="iphones">
+          <li><a class="logo" href="#"><img src="src/ipad-logo.png" width="70" height="30"></a> <br> <br> Tu próximo ordenador no es un ordenador </li> <br>
+          <li><a href="pages/ipad.html"><img src="src/ipad-air-m1.png" width="250" height="250"/></a>Dispositivos iPad desde 399€ <br>*IVA incluido </li>
+        </div>
+        <div class="iphones">
+          <li><a class="logo" href="#"><img src="src/macbook-logo.png" width="155" height="36"></a> <br> <br> Di hola al futuro. Bienvenido Apple Silicon</li> <br>
+          <li><a href="pages/macbook.html"><img class="mac" src="src/macbook-pro-m1.png" width="400" height="230"/></a>Dispositivos Macbook desde 999€ <br>*IVA incluido <br> </li>
+        </div>
       </ul>
 
     </nav>
