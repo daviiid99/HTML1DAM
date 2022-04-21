@@ -6,16 +6,18 @@
     <link rel="icon" type="image/x-icon" href="src/apple.ico">
     <link rel="stylesheet" type="text/css" href="css/phones.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="https://www.apple.com/wss/fonts?family=SF+Mono&v=2" type="text/css" />
+    <link rel="stylesheet" href="https://www.apple.com/wss/fonts?family=Apple+Icons&amp;v=1" type="text/css" />
   </head>
   <body>
     <header class="cabecera">
       <ul>
-        <img src="src/apple-header.png" alt="" width="20" height="27">
+        <img src="src/apple.ico" alt="" width="27" height="27">
         <li><a href="#">Store</a></li>
         <li><a href="pages/macbook.html">Mac</a></li>
         <li><a href="pages/iphone.html">iPhone</a></li>
         <li><a href="pages/ipad.html">iPad</a></li>
+
         <form class="search" action="action_page.php">
           <input type="text" placeholder="Buscar.." name="search">
           <button type="submit"><i class="fa fa-search"></i></button>
@@ -23,7 +25,14 @@
       </ul>
     </header>
     <nav class="navbar">
-      <p>La Tienda<br>Donde empieza la magia</p>
+        <img class="phone" src="src/iphone.png" alt="Dale al play!" height="350px" width="350px">
+
+      <p>La Tienda<br>Donde empieza la magia
+        <audio id="player" src="music/apple.mp3"></audio>
+        <div class="icono">
+          <button class="player" onclick="document.getElementById('player').play()"><img class="apple" src="src/music.png" height="200px" width="350px" /></button>
+        </div>
+      </p>
       <ul>
         <li><a class="logo" href="#"><img src="src/iphone-logo.png" width="90" height="30"></a> <br> <br> Potente. Rápido. Mágico</li>
         <li><a class="logo" href="#"><img src="src/ipad-logo.png" width="70" height="30"></a> <br> <br> Tu próximo ordenador no es un ordenador </li>
@@ -33,12 +42,6 @@
         <li><a href="pages/iphone.html"><img src="src/iphone-se-2022.jpg" width="250" height="250"/></a>Dispositivos iPhone desde 499€ <br>Por 399€ si entregas tu anterior iPhone </li>
         <li><a href="pages/ipad.html"><img src="src/ipad-air-m1.png" width="250" height="250"/></a>Dispositivos iPad desde 399€</li>
         <li><a href="pages/macbook.html"><img src="src/macbook-pro-m1.png" width="400" height="230"/></a>Dispositivos Mac desde 999€</li>
-      </ul>
-
-      <ul>
-        <!-- <li><button type="button">Dispositivos iPhone<br/>Desde 499€</button></li>
-        <li><button type="button">Dispositivos iPad<br/>Desde 399€</button></li>
-        <li><button type="button">Dispositivos Macbook Pro<br/>Desde 899€</button></li> -->
       </ul>
 
     </nav>
@@ -51,6 +54,7 @@
       escuchamos la música. <br>Apple ha cambiado nuestras vidas para siempre.<br> <br> </cite>
       </div>
     </footer>
+
 
   </body>
 </html>
