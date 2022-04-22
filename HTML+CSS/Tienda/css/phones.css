@@ -205,6 +205,24 @@ white-space: pre;
 
 }
 
+.macbook{
+  position: absolute;
+  top: 50px;
+  left: 528px;
+  top: 100px;
+  margin-bottom: : 20%;
+
+}
+
+.ip{
+  position: absolute;
+  top: 50px;
+  left: 620px;
+  top: -100px;
+  margin-bottom: : 20%;
+
+}
+
 footer {
   margin-top: : 5%;
 }
@@ -224,6 +242,16 @@ img.mac{
   padding-bottom: 0px;
 }
 
+img.ipad{
+  position: absolute;
+  top: 50px;
+  left: 620px;
+  top: -100px;
+  margin-bottom: : 20%;
+  margin-top: 210px;
+  margin-left: 250px;
+}
+
 .iphones {
   border-style: solid;
   border-radius: 15%;
@@ -233,4 +261,114 @@ img.mac{
   padding-top: 10px;
   padding-bottom: 5px;
   padding-right: 0px;
+}
+
+
+.iphones-1 {
+  border-style: solid;
+  border-radius: 15%;
+  border-color: white;
+  background-color: white;
+  margin-right: 10px;
+  padding-top: 10px;
+  margin-top: 400px;
+  padding-bottom: 5px;
+  padding-right: 0px;
+  margin-left: 50px;
+}
+
+
+
+.iphones-2 {
+  border-style: solid;
+  border-radius: 15%;
+  border-color: white;
+  background-color: white;
+  margin-right: 10px;
+  padding-top: 10px;
+  margin-top: -300px;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+  padding-right: 0px;
+  display: flex;
+  margin-left: 450px;
+}
+
+
+
+.iphones-3 {
+  border-style: solid;
+  border-radius: 15%;
+  border-color: white;
+  background-color: white;
+  margin-right: 10px;
+  padding-top: 10px;
+  margin-top: -310px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  padding-right: 0px;
+  display: flex;
+  margin-left: 850px;
+}
+
+.iphones-4 {
+  border-style: solid;
+  border-radius: 15%;
+  border-color: white;
+  background-color: white;
+  margin-right: 10px;
+  padding-top: 10px;
+  margin-top: 0px;
+  padding-bottom: 5px;
+  padding-right: 0px;
+  display: flex;
+  margin-left: 50px;
+
+
+}
+
+.iphones-5 {
+  border-style: solid;
+  border-radius: 15%;
+  border-color: white;
+  background-color: white;
+  margin-right: 10px;
+  padding-top: 10px;
+  margin-top: -300px;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+  padding-right: 0px;
+  display: flex;
+  margin-left: 450px;
+}
+
+.iphones-6 {
+  border-style: solid;
+  border-radius: 15%;
+  border-color: white;
+  background-color: white;
+  margin-right: 10px;
+  padding-top: 10px;
+  margin-top: -310px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  padding-right: 0px;
+  display: flex;
+  margin-left: 850px;
+}
+
+img.logo-13{
+  margin-left: -215px;
+  margin-top: 375px;
+  margin-bottom: -500px;
+  position: absolute;
+
+}
+
+img.logo-13-n{
+  margin-left: -195px;
+  margin-top: -20px;
+  margin-bottom: -500px;
+  position: absolute;
+
 }
