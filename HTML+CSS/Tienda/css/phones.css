@@ -164,12 +164,24 @@ footer {
 }
 
 img.apple {
-  width: 400px;
+  width: 380px;
   height: 200px;
   margin: auto;
   position: absolute;
   margin-top: -380px;
   margin-left: 200px;
+  margin-right: 100%;
+  padding-bottom: 5px;
+  margin-bottom: 50px;
+}
+
+img.anuncio{
+  width: 320px;
+  height: 140px;
+  margin: auto;
+  position: absolute;
+  margin-top: -425px;
+  margin-left: 220px;
   margin-right: 100%;
   padding-bottom: 5px;
   margin-bottom: 50px;
