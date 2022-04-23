@@ -9,6 +9,13 @@ body {
   background-color: #EFEFE9;
 }
 
+#mac{
+  background-repeat:  ;
+  background-position:  ;
+  background-size:  cover;
+  background-color: none;
+}
+
 header {
   width:auto;
   height:auto;
@@ -39,6 +46,12 @@ footer {
   margin-bottom: -130px;
 }
 
+
+.banner-mac {
+  border-style: none;
+  margin-bottom: -300px;
+}
+
 .cabecera ul{
   list-style: none;
   display: flex;
@@ -61,6 +74,16 @@ footer {
     text-align: center;
     font-family: sans-serif;
     background-color: #3B3B38;
+    opacity: 1.5;
+    width: 100%;
+}
+
+
+.macos {
+    text-align: center;
+    font-family: sans-serif;
+    background-image: url(../src/m1-fondo.jpg);
+    background-size: cover;
     opacity: 1.5;
     width: 100%;
 }
@@ -208,7 +231,7 @@ white-space: pre;
 .macbook{
   position: absolute;
   top: 50px;
-  left: 528px;
+  left: 728px;
   top: 100px;
   margin-bottom: : 20%;
 
@@ -371,4 +394,114 @@ img.logo-13-n{
   margin-bottom: -500px;
   position: absolute;
 
+}
+
+img.logo-m1{
+  margin-left: -2%;
+  margin-right: 75%;
+  margin-top: 535px;
+  margin-bottom: 1050px;
+  position: absolute;
+
+}
+
+img.logo-intel{
+  margin-left: -2%;
+  margin-right: 75%;
+  margin-top: -50px;
+  margin-bottom: 1050px;
+  position: absolute;
+
+}
+
+.mac-1 {
+  border-style: solid;
+  border-radius: 15%;
+  border-color: white;
+  background-color: white;
+  margin-right: 10px;
+  padding-top: 10px;
+  margin-top: 600px;
+  padding-bottom: 5px;
+  padding-right: 0px;
+  margin-left: 0px;
+}
+
+.mac-2 {
+  border-style: solid;
+  border-radius: 15%;
+  border-color: white;
+  background-color: white;
+  margin-right: 10px;
+  padding-top: 10px;
+  margin-top: -300px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  padding-right: 0px;
+  display: flex;
+  margin-left: 520px;
+
+}
+
+.mac-3 {
+  border-style: solid;
+  border-radius: 15%;
+  border-color: white;
+  background-color: white;
+  margin-right: 10px;
+  padding-top: 10px;
+  margin-top: -310px;
+  padding-bottom: 10px;
+  margin-bottom: 80px;
+  padding-right: 0px;
+  display: flex;
+  margin-left: 1100px;
+
+}
+
+
+.mac-4 {
+  border-style: solid;
+  border-radius: 15%;
+  border-color: white;
+  background-color: white;
+  margin-right: 10px;
+  padding-top: 10px;
+  margin-top: 0px;
+  padding-bottom: 5px;
+  padding-right: 0px;
+  display: flex;
+  margin-left: 0px;
+
+
+}
+
+.mac-5 {
+  border-style: solid;
+  border-radius: 15%;
+  border-color: white;
+  background-color: white;
+  margin-right: 10px;
+  padding-top: 10px;
+  margin-top: -300px;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+  padding-right: 0px;
+  display: flex;
+  margin-left: 500px;
+}
+
+.mac-6 {
+  border-style: solid;
+  border-radius: 15%;
+  border-color: white;
+  background-color: white;
+  margin-right: 10px;
+  padding-top: 10px;
+  margin-top: -310px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  padding-right: 0px;
+  display: flex;
+  margin-left: 1000px;
 }
