@@ -22,6 +22,8 @@ header {
 }
 
 footer {
+  width:auto;
+
 }
 
 #player{
@@ -287,6 +289,7 @@ img.ipad{
   background-color: white;
   margin-right: 10px;
   padding-top: 10px;
+  display: inline-block;
   padding-bottom: 5px;
   padding-right: 0px;
   box-shadow: 20px 20px 50px grey;
@@ -295,6 +298,7 @@ img.ipad{
 
 
 .iphones-1 {
+  width: 30%;
   border-style: solid;
   border-radius: 15%;
   border-color: white;
@@ -312,6 +316,7 @@ img.ipad{
 
 
 .iphones-2 {
+  width: 30%;
   border-style: solid;
   border-radius: 15%;
   border-color: white;
@@ -327,7 +332,7 @@ img.ipad{
   margin-left: 450px;
   box-shadow: 20px 20px 50px grey;
   padding-left: 5px;
-  padding-bottom: 0px;
+  padding-bottom: -90px;
   margin-left: 520px;
 
 }
@@ -335,6 +340,7 @@ img.ipad{
 
 
 .iphones-3 {
+  width: 30%;
   border-style: solid;
   border-radius: 15%;
   border-color: white;
@@ -351,11 +357,12 @@ img.ipad{
   padding-left: 5px;
   padding-bottom: 0px;
   margin-top: -630px;
-  margin-left: 990px;
+  margin-left: 1020px;
 
 }
 
 .iphones-4 {
+  width: 30%;
   border-style: solid;
   border-radius: 15%;
   border-color: white;
@@ -374,6 +381,7 @@ img.ipad{
 }
 
 .iphones-5 {
+  width: 30%;
   border-style: solid;
   border-radius: 15%;
   border-color: white;
@@ -393,6 +401,7 @@ img.ipad{
 }
 
 .iphones-6 {
+  width: 30%;
   border-style: solid;
   border-radius: 15%;
   border-color: white;
@@ -404,7 +413,7 @@ img.ipad{
   margin-bottom: 20px;
   padding-right: 0px;
   display: inline-block;
-  margin-left: 850px;
+  margin-left: 80px;
   box-shadow: 20px 20px 50px grey;
     margin-left: 990px;
 
@@ -426,12 +435,13 @@ img.logo-13-n{
 
 }
 
-img.logo-m1{
-  margin-left: -2%;
+.logo-m1{
+  margin-left: 655px;
   margin-right: 75%;
-  margin-top: 535px;
-  margin-bottom: 1050px;
-  position: absolute;
+  padding-top: 200px;
+  padding-bottom: 20px;
+  margin-bottom: -30px;
+  display: inline-block;
 
 }
 
@@ -445,11 +455,12 @@ img.logo-intel{
 }
 
 .mac-1 {
+  width: 30%;
   border-style: solid;
   border-radius: 15%;
   border-color: white;
   background-color: white;
-  margin-right: 10px;
+  margin-right: 5px;
   padding-top: 20px;
   margin-top: 600px;
   padding-bottom: 5px;
@@ -459,24 +470,26 @@ img.logo-intel{
 }
 
 .mac-2 {
+  width: 30%;
   border-style: solid;
   border-radius: 15%;
   border-color: white;
   background-color: white;
-  margin-right: 10px;
-  padding-top: 20px;
+  margin-right: 5%;
+  padding-top: 40px;
   margin-top: -635px;
-  padding-bottom:50px;
   margin-bottom: 20px;
-  padding-right: 0px;
+  padding-right: 1%;
   display: inline-block;
-  padding-left: 5px;
+  padding-left: 1%;
   padding-bottom: 0px;
-  margin-left: 530px;
   box-shadow: 20px 20px 50px grey;
+  margin-left: 33%;
+
 }
 
 .mac-3 {
+  width: 30%;
   border-style: solid;
   border-radius: 15%;
   border-color: white;
@@ -490,11 +503,16 @@ img.logo-intel{
   display: inline-block;
   margin-left: 1070px;
   box-shadow: 20px 20px 50px grey;
+  padding-right: 1%;
+  padding-left: 1%;
+  margin-left: 66%;
+
 
 }
 
 
 .mac-4 {
+  width: 30%;
   border-style: solid;
   border-radius: 15%;
   border-color: white;
@@ -507,11 +525,13 @@ img.logo-intel{
   display: inline-block;
   margin-left: 0px;
   box-shadow: 20px 20px 50px grey;
-
+  padding-right: 1%;
+  padding-left: 0%;
 
 }
 
 .mac-5 {
+  width: 30%;
   border-style: solid;
   border-radius: 15%;
   border-color: white;
@@ -523,11 +543,16 @@ img.logo-intel{
   margin-bottom: 5px;
   padding-right: 0px;
   display: inline-block;
-  margin-left: 500px;
+  margin-left: 33%;
   box-shadow: 20px 20px 50px grey;
+  padding-right: 1%;
+  padding-left: 0%;
+  margin-left: 33%;
+
 }
 
 .mac-6 {
+  width: 30%;
   border-style: solid;
   border-radius: 15%;
   border-color: white;
@@ -541,6 +566,10 @@ img.logo-intel{
   display: inline-block;
   margin-left: 1000px;
   box-shadow: 20px 20px 50px grey;
+  padding-right: 1%;
+  padding-left: 0%;
+  margin-left: 66%;
+
 }
 
 #comprar{
@@ -556,7 +585,7 @@ img.logo-intel{
   font-weight: bolder;
   font-size: 20px;
   text-align: center;
-  margin-left: 255px;
+  margin-left: 70%;
   opacity: 0.65;
 }
 
@@ -573,7 +602,8 @@ img.icono {
   margin-top:80px;
   margin-bottom: -120px;
   font-size: 20pt ;
-  margin-left:50px;
+  margin-right: 90%;
+  margin-left: 10%;
   color: orange;
 
 }
