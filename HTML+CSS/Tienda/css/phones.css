@@ -39,6 +39,8 @@ footer {
   opacity: 1.5;
   width: 100%;
   margin: 0px 0px 10px;
+  box-shadow: 20px 20px 50px grey;
+
 }
 
 .banner {
@@ -76,6 +78,8 @@ footer {
     background-color: #3B3B38;
     opacity: 1.5;
     width: 100%;
+    box-shadow: 20px 20px 50px grey;
+
 }
 
 
@@ -165,6 +169,7 @@ footer {
   opacity: 0.7;
   display: flex;
   align-content: center;
+
 }
 
 .player {
@@ -284,6 +289,8 @@ img.ipad{
   padding-top: 10px;
   padding-bottom: 5px;
   padding-right: 0px;
+  box-shadow: 20px 20px 50px grey;
+
 }
 
 
@@ -292,12 +299,14 @@ img.ipad{
   border-radius: 15%;
   border-color: white;
   background-color: white;
-  margin-right: 10px;
+  margin-right: 60px;
   padding-top: 10px;
   margin-top: 400px;
   padding-bottom: 5px;
   padding-right: 0px;
   margin-left: 50px;
+  box-shadow: 20px 20px 50px grey;
+
 }
 
 
@@ -309,12 +318,18 @@ img.ipad{
   background-color: white;
   margin-right: 10px;
   padding-top: 10px;
-  margin-top: -300px;
+  margin-top: -620px;
   padding-bottom: 10px;
   margin-bottom: 5px;
-  padding-right: 0px;
-  display: flex;
+  padding-right: 20px;
+  display: inline-block;
+  margin-left: -50px;
   margin-left: 450px;
+  box-shadow: 20px 20px 50px grey;
+  padding-left: 5px;
+  padding-bottom: 0px;
+  margin-left: 520px;
+
 }
 
 
@@ -326,12 +341,18 @@ img.ipad{
   background-color: white;
   margin-right: 10px;
   padding-top: 10px;
-  margin-top: -310px;
+  margin-top: -620px;
   padding-bottom: 10px;
   margin-bottom: 20px;
   padding-right: 0px;
-  display: flex;
+  display: inline-block;
   margin-left: 850px;
+  box-shadow: 20px 20px 50px grey;
+  padding-left: 5px;
+  padding-bottom: 0px;
+  margin-top: -630px;
+  margin-left: 990px;
+
 }
 
 .iphones-4 {
@@ -344,8 +365,10 @@ img.ipad{
   margin-top: 0px;
   padding-bottom: 5px;
   padding-right: 0px;
-  display: flex;
+  display: inline-block;
   margin-left: 50px;
+  box-shadow: 20px 20px 50px grey;
+
 
 
 }
@@ -357,12 +380,16 @@ img.ipad{
   background-color: white;
   margin-right: 10px;
   padding-top: 10px;
-  margin-top: -300px;
+  margin-top: -620px;
   padding-bottom: 10px;
   margin-bottom: 5px;
   padding-right: 0px;
-  display: flex;
+  display: inline-block;
   margin-left: 450px;
+  box-shadow: 20px 20px 50px grey;
+  margin-left: 520px;
+
+
 }
 
 .iphones-6 {
@@ -372,12 +399,15 @@ img.ipad{
   background-color: white;
   margin-right: 10px;
   padding-top: 10px;
-  margin-top: -310px;
+  margin-top: -620px;
   padding-bottom: 10px;
   margin-bottom: 20px;
   padding-right: 0px;
-  display: flex;
+  display: inline-block;
   margin-left: 850px;
+  box-shadow: 20px 20px 50px grey;
+    margin-left: 990px;
+
 }
 
 img.logo-13{
@@ -420,11 +450,12 @@ img.logo-intel{
   border-color: white;
   background-color: white;
   margin-right: 10px;
-  padding-top: 10px;
+  padding-top: 20px;
   margin-top: 600px;
   padding-bottom: 5px;
   padding-right: 0px;
   margin-left: 0px;
+  box-shadow: 20px 20px 50px grey;
 }
 
 .mac-2 {
@@ -433,14 +464,16 @@ img.logo-intel{
   border-color: white;
   background-color: white;
   margin-right: 10px;
-  padding-top: 10px;
-  margin-top: -300px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  margin-top: -635px;
+  padding-bottom:50px;
   margin-bottom: 20px;
   padding-right: 0px;
-  display: flex;
-  margin-left: 520px;
-
+  display: inline-block;
+  padding-left: 5px;
+  padding-bottom: 0px;
+  margin-left: 530px;
+  box-shadow: 20px 20px 50px grey;
 }
 
 .mac-3 {
@@ -449,13 +482,14 @@ img.logo-intel{
   border-color: white;
   background-color: white;
   margin-right: 10px;
-  padding-top: 10px;
-  margin-top: -310px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  margin-top: -650px;
+  padding-bottom:0px;
   margin-bottom: 80px;
   padding-right: 0px;
-  display: flex;
-  margin-left: 1100px;
+  display: inline-block;
+  margin-left: 1070px;
+  box-shadow: 20px 20px 50px grey;
 
 }
 
@@ -470,8 +504,9 @@ img.logo-intel{
   margin-top: 0px;
   padding-bottom: 5px;
   padding-right: 0px;
-  display: flex;
+  display: inline-block;
   margin-left: 0px;
+  box-shadow: 20px 20px 50px grey;
 
 
 }
@@ -483,12 +518,13 @@ img.logo-intel{
   background-color: white;
   margin-right: 10px;
   padding-top: 10px;
-  margin-top: -300px;
+  margin-top: -620px;
   padding-bottom: 10px;
   margin-bottom: 5px;
   padding-right: 0px;
-  display: flex;
+  display: inline-block;
   margin-left: 500px;
+  box-shadow: 20px 20px 50px grey;
 }
 
 .mac-6 {
@@ -498,10 +534,122 @@ img.logo-intel{
   background-color: white;
   margin-right: 10px;
   padding-top: 10px;
-  margin-top: -310px;
+  margin-top: -640px;
   padding-bottom: 10px;
   margin-bottom: 20px;
   padding-right: 0px;
-  display: flex;
+  display: inline-block;
   margin-left: 1000px;
+  box-shadow: 20px 20px 50px grey;
+}
+
+#comprar{
+  background-color: white;
+  font-size: 20px;
+  color: black;
+  border-color: lightblue;
+  border-style:  groove;
+  box-shadow: 50px;
+  border-width: 5px;
+  width: 100px;
+  height: 100px;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 255px;
+  opacity: 0.65;
+}
+
+img.icono {
+  margin-left: 5px;
+  margin-top: 2px;
+  display: flex;
+}
+
+
+
+.selling-price{
+  display: flex;
+  margin-top:80px;
+  margin-bottom: -120px;
+  font-size: 20pt ;
+  margin-left:50px;
+  color: orange;
+
+}
+
+.descripcion-1{
+  font-size: 28px;
+  font-weight: bold;;
+}
+
+p.selling-price-2{
+  display: block;;
+}
+
+#comprar-2{
+  display: block;
+}
+
+
+/** Popup code */
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 350px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+.popuptext{
+  display: inline;
 }
