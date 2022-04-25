@@ -11,7 +11,7 @@
   </head>
   <body id="mac">
     <header class="cabecera">
-      <ul>
+      <ul id="test">
         <img src="../src/apple.ico" alt="" width="27" height="27">
         <li><a href="../apple.html">Inicio</a></li>
         <li><a href="macbook.html">Mac</a></li>
@@ -238,5 +238,33 @@ function hacerCosas6(){
 </script>
 
 
+<script type="text/javascript">
+let test = document.getElementById("test");
+
+// This handler will be executed only once when the cursor
+// moves over the unordered list
+test.addEventListener("mouseenter", function( event ) {
+// highlight the mouseenter target
+event.target.style.color = "purple";
+
+// reset the color after a short delay
+setTimeout(function() {
+  event.target.style.color = "";
+}, 500);
+}, false);
+
+// This handler will be executed every time the cursor
+// is moved over a different list item
+test.addEventListener("mouseover", function( event ) {
+// highlight the mouseover target
+event.target.style.color = "white";
+
+// reset the color after a short delay
+setTimeout(function() {
+  event.target.style.color = "";
+}, 500);
+}, false);
+
+</script>
 
 </html>

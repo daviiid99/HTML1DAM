@@ -2,6 +2,7 @@
 <html lang="es" dir="ltr" zoom="90%">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <title>Apple Store</title>
     <link rel="icon" type="image/x-icon" href="../src/apple.ico">
     <link rel="stylesheet" type="text/css" href="../css/phones.css">
@@ -11,14 +12,14 @@
   </head>
   <body>
     <header class="cabecera">
-      <ul>
-        <img src="../src/apple.ico" alt="" width="27" height="27">
+      <ul id="test">
+        <li><a href="#"><img src="../src/apple.ico" alt="" width="27" height="27"></a></li>
         <li><a href="../apple.html">Inicio</a></li>
         <li><a href="macbook.html">Mac</a></li>
         <li><a href="iphone.html">iPhone</a></li>
         <li><a href="ipad.html">iPad</a></li>
 
-        <form class="search" action="action_page.php">
+        <form class="search" action="https://www.apple.com/es/search/iphone?src=globalnav">
           <input type="text" placeholder="Buscar.." name="search">
           <button type="submit"><i class="fa fa-search"></i></button>
         </form>
@@ -36,9 +37,9 @@
       </p>
       </div>
 
-<ul>
-  <div class="iphones-1">
-    <li><a href="iphone.html"><img src="../src/iphone-13-rojo.png" width="200" height="250"/></a></li>
+<ul id="test2">
+  <div  class="iphones-1">
+    <li><a href="iphone.html"><img class="R13" src="../src/iphone-13-rojo.png" width="200" height="250"/></a></li>
     <div class="descripcion-1">
     <br>Apple iPhone 13 <br>8GB/256GB 6.1" OLED <br>PRODUCT(RED)
     </div>
@@ -243,4 +244,35 @@
     myPopup6();
   }
   </script>
+
+<script type="text/javascript">
+let test = document.getElementById("test");
+
+// This handler will be executed only once when the cursor
+// moves over the unordered list
+test.addEventListener("mouseenter", function( event ) {
+// highlight the mouseenter target
+event.target.style.color = "purple";
+
+// reset the color after a short delay
+setTimeout(function() {
+  event.target.style.color = "";
+}, 500);
+}, false);
+
+// This handler will be executed every time the cursor
+// is moved over a different list item
+test.addEventListener("mouseover", function( event ) {
+// highlight the mouseover target
+event.target.style.color = "white";
+
+// reset the color after a short delay
+setTimeout(function() {
+  event.target.style.color = "";
+}, 500);
+}, false);
+
+</script>
+
+
 </html>
