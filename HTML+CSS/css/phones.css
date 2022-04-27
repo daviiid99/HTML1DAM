@@ -1,0 +1,906 @@
+html {
+  zoom: 75%;
+}
+
+
+body {
+  background-color: black;
+  color : white;
+  width:auto;
+  height:auto;
+  margin: auto;
+  background-color: #EFEFE9;
+}
+
+#mac{
+  background-repeat:  ;
+  background-position:  ;
+  background-size:  cover;
+  background-color: none;
+}
+
+header {
+  width:auto;
+  height:auto;
+}
+
+footer {
+  width:auto;
+
+}
+
+#player{
+  margin-right: 900px;
+}
+
+.cabecera {
+  width:auto;
+  height:auto;
+  text-align: center;
+  font-family: sans-serif;
+  padding: 10px;
+  height: 40px;
+  background-color: #2D2D2B;
+  opacity: 1.5;
+  width: 100%;
+  margin: 0px 0px 10px;
+  box-shadow: 20px 20px 50px grey;
+
+}
+
+.banner {
+  border-style: none;
+  margin-bottom: -130px;
+}
+
+
+.banner-mac {
+  border-style: none;
+  margin-bottom: -300px;
+}
+
+.cabecera ul{
+  list-style: none;
+  display: flex;
+}
+
+.cabecera ul a{
+  color: grey;
+  text-decoration: none;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom:222px;
+}
+
+.cabecera ul img {
+  margin-top: 10px;
+  margin-top: -5px;
+}
+
+.pie {
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #3B3B38;
+    opacity: 1.5;
+    width: 100%;
+    box-shadow: 20px 20px 50px grey;
+
+}
+
+
+.macos {
+    text-align: center;
+    font-family: sans-serif;
+    background-image: url(../src/m1-fondo.jpg);
+    background-size: cover;
+    opacity: 1.5;
+    width: 100%;
+}
+
+.navbar{
+  text-align: center;
+  font-family: sans-serif ;
+  font-style: normal;
+  font-weight: bolder;
+  background-color: #EFEFE9;
+  border-style :  none;
+  border-color : grey;
+  border-radius: 0%;
+  margin: 10px 20px 0px 20px;
+  opacity: 0.9;
+}
+
+.navbar ul{
+  list-style: none;
+  display: flex;
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+
+.navbar p{
+  color: black;
+  font-size: 50px;
+  text-align: left;
+}
+
+.navbar img{
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+.navbar{
+  color: black;
+  margin-bottom: 55px;
+  margin-top: 0px;
+}
+
+.navbar audio {
+  align: left;
+  margin-left: 5px;
+  margin-right: 90%;
+  display: flex;
+
+}
+
+.logo{
+  padding-left: 80px;
+  padding-right: 110px;
+}
+
+.search {
+  margin-left: 550px;
+}
+
+.navbar button {
+  padding-right: 75px;
+  margin: 40px;
+  border-radius: 15%;
+  height: 90px;
+  text-align: center;
+  border-style: solid;
+
+}
+
+.navbar button{
+  border-style: none;
+
+}
+
+.steve{
+  margin-left: 75%;
+  margin-top: 0%;
+  opacity: 0.7;
+  display: flex;
+  align-content: center;
+
+}
+
+.player {
+  padding-left: 10px;
+  padding-right: 800px;
+  padding-top: 10px;
+  padding-bottom: 10%;
+  background-color: #EFEFE9;
+  top: 3px;
+  opacity: 1.0;
+  height: 0px;
+  width: 50px;
+}
+
+.icono {
+  border-style: none;
+  margin-right: : 890px;
+  margin-top: 10px;
+
+}
+
+img.apple {
+  width: 380px;
+  height: 200px;
+  margin: auto;
+  position: absolute;
+  margin-top: -380px;
+  margin-left: 200px;
+  margin-right: 100%;
+  padding-bottom: 5px;
+  margin-bottom: 50px;
+}
+
+img.anuncio{
+  width: 320px;
+  height: 140px;
+  margin: auto;
+  position: absolute;
+  margin-top: -425px;
+  margin-left: 220px;
+  margin-right: 100%;
+  padding-bottom: 5px;
+  margin-bottom: 50px;
+}
+
+.apple{
+  margin-left: : 50px;
+}
+
+
+p{
+white-space: pre;
+
+}
+.phone{
+  position: absolute;
+  top: 50px;
+  left: 398px;
+  top: 100px;
+  margin-bottom: : 20%;
+
+}
+
+.macbook{
+  position: absolute;
+  top: 50px;
+  left: 728px;
+  top: 100px;
+  margin-bottom: : 20%;
+
+}
+
+.ip{
+  position: absolute;
+  top: 50px;
+  left: 620px;
+  top: -100px;
+  margin-bottom: : 20%;
+
+}
+
+footer {
+  margin-top: : 5%;
+}
+
+footer cite{
+  position :  absolute  ;
+  top: 1080px;
+  margin-bottom:  -45px;
+  width: 850px;
+  bottom: 190px;
+  text-align: center;
+  margin-left: -440px;
+  margin-right: 30%;
+}
+
+img.mac{
+  padding-bottom: 0px;
+}
+
+img.ipad{
+  position: absolute;
+  top: 50px;
+  left: 620px;
+  top: -100px;
+  margin-bottom: : 20%;
+  margin-top: 210px;
+  margin-left: 250px;
+}
+
+.iphones {
+  border-style: solid;
+  border-radius: 15%;
+  border-color: white;
+  background-color: white;
+  margin-right: 50px;
+  padding-top: 10px;
+  display: inline-block;
+  padding-bottom: 5px;
+  padding-right: 0px;
+  box-shadow: 20px 20px 50px grey;
+  min-width: 350px;
+  max-width: 350px;
+  padding-left: 10px;
+  padding-right: 15px;
+
+}
+
+/** Dispositivos Iphone */
+
+.iphones-1 {
+  width: 30%;
+  border-style: solid;
+  border-radius: 15%;
+  border-color: white;
+  background-color: white;
+  margin-right: 60px;
+  padding-top: 10px;
+  margin-top: 400px;
+  padding-bottom: 5px;
+  padding-right: 0px;
+  margin-left: 50px;
+  box-shadow: 20px 20px 50px grey;
+  padding-left: 0px;
+  padding-right: 0px;
+  min-width: 350px;
+  max-width: 300px;
+
+}
+
+
+
+.iphones-2 {
+  width: 30%;
+  border-style: solid;
+  border-radius: 15%;
+  border-color: white;
+  background-color: white;
+  margin-right: 10px;
+  padding-top: 10px;
+  margin-top: -620px;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+  padding-right: 20px;
+  display: inline-block;
+  margin-left: -50px;
+  margin-left: 450px;
+  box-shadow: 20px 20px 50px grey;
+  padding-left: 5px;
+  padding-bottom: -90px;
+  margin-left: 520px;
+  padding-left: 0px;
+  padding-right: 0px;
+  min-width: 350px;
+  max-width: 300px;
+
+}
+
+.iphones-3 {
+  width: 30%;
+  border-style: solid;
+  border-radius: 15%;
+  border-color: white;
+  background-color: white;
+  margin-right: 10px;
+  padding-top: 10px;
+  margin-top: -620px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  padding-right: 0px;
+  display: inline-block;
+  margin-left: 850px;
+  box-shadow: 20px 20px 50px grey;
+  padding-left: 5px;
+  padding-bottom: 0px;
+  margin-top: -630px;
+  margin-left: 990px;
+  padding-left: 0px;
+  padding-right: 0px;
+  min-width: 350px;
+  max-width: 300px;
+
+}
+
+.iphones-4 {
+  width: 30%;
+  border-style: solid;
+  border-radius: 15%;
+  border-color: white;
+  background-color: white;
+  margin-right: 10px;
+  padding-top: 10px;
+  margin-top: 0px;
+  padding-bottom: 5px;
+  padding-right: 0px;
+  display: inline-block;
+  margin-left: 50px;
+  box-shadow: 20px 20px 50px grey;
+  padding-left: 0px;
+  padding-right: 0px;
+  min-width: 350px;
+  max-width: 300px;
+
+
+
+}
+
+.iphones-5 {
+  width: 30%;
+  border-style: solid;
+  border-radius: 15%;
+  border-color: white;
+  background-color: white;
+  margin-right: 10px;
+  padding-top: 10px;
+  margin-top: -620px;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+  padding-right: 0px;
+  display: inline-block;
+  margin-left: 450px;
+  box-shadow: 20px 20px 50px grey;
+  margin-left: 520px;
+  padding-left: 0px;
+  padding-right: 0px;
+  min-width: 350px;
+  max-width: 300px;
+
+
+}
+
+.iphones-6 {
+  width: 30%;
+  border-style: solid;
+  border-radius: 15%;
+  border-color: white;
+  background-color: white;
+  margin-right: 10px;
+  padding-top: 10px;
+  margin-top: -620px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  padding-right: 0px;
+  display: inline-block;
+  margin-left: 80px;
+  box-shadow: 20px 20px 50px grey;
+  margin-left: 990px;
+  padding-left: 0px;
+  padding-right: 0px;
+  min-width: 350px;
+  max-width: 300px;
+
+}
+
+/** Dispositivos Ipad */
+
+
+.ipad-1 {
+  width: 30%;
+  border-style: solid;
+  border-radius: 15%;
+  border-color: white;
+  background-color: white;
+  margin-right: 60px;
+  padding-top: 10px;
+  margin-top: 400px;
+  padding-bottom: 5px;
+  padding-right: 0px;
+  margin-left: 50px;
+  box-shadow: 20px 20px 50px grey;
+  padding-left: 0px;
+  padding-right: 0px;
+  min-width: 450px;
+  max-width: 450px;
+
+}
+
+
+
+.ipad-2 {
+  width: 30%;
+  border-style: solid;
+  border-radius: 15%;
+  border-color: white;
+  background-color: white;
+  margin-right: 10px;
+  padding-top: 10px;
+  margin-top: -620px;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+  padding-right: 20px;
+  display: inline-block;
+  margin-left: -50px;
+  margin-left: 450px;
+  box-shadow: 20px 20px 50px grey;
+  padding-left: 5px;
+  padding-bottom: -90px;
+  margin-left: 520px;
+  padding-left: 0px;
+  padding-right: 0px;
+  min-width: 450px;
+  max-width: 450px;
+
+}
+
+
+
+.ipad-3 {
+  width: 30%;
+  border-style: solid;
+  border-radius: 15%;
+  border-color: white;
+  background-color: white;
+  margin-right: 10px;
+  padding-top: 10px;
+  margin-top: -620px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  padding-right: 0px;
+  display: inline-block;
+  margin-left: 850px;
+  box-shadow: 20px 20px 50px grey;
+  padding-left: 5px;
+  padding-bottom: 0px;
+  margin-top: -630px;
+  margin-left: 990px;
+  padding-left: 0px;
+  padding-right: 0px;
+  min-width: 450px;
+  max-width: 450px;
+
+}
+
+.ipad-4 {
+  width: 30%;
+  border-style: solid;
+  border-radius: 15%;
+  border-color: white;
+  background-color: white;
+  margin-right: 10px;
+  padding-top: 10px;
+  margin-top: 0px;
+  padding-bottom: 5px;
+  padding-right: 0px;
+  display: inline-block;
+  margin-left: 50px;
+  box-shadow: 20px 20px 50px grey;
+  padding-left: 0px;
+  padding-right: 0px;
+  min-width: 450px;
+  max-width: 450px;
+
+
+
+}
+
+.ipad-5 {
+  width: 30%;
+  border-style: solid;
+  border-radius: 15%;
+  border-color: white;
+  background-color: white;
+  margin-right: 10px;
+  padding-top: 10px;
+  margin-top: -620px;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+  padding-right: 0px;
+  display: inline-block;
+  margin-left: 450px;
+  box-shadow: 20px 20px 50px grey;
+  margin-left: 520px;
+  padding-left: 0px;
+  padding-right: 0px;
+  min-width: 450px;
+  max-width: 450px;
+
+
+}
+
+.ipad-6 {
+  width: 30%;
+  border-style: solid;
+  border-radius: 15%;
+  border-color: white;
+  background-color: white;
+  margin-right: 10px;
+  padding-top: 10px;
+  margin-top: -635px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  padding-right: 0px;
+  display: inline-block;
+  margin-left: 80px;
+  box-shadow: 20px 20px 50px grey;
+  margin-left: 990px;
+  padding-left: 0px;
+  padding-right: 0px;
+  min-width: 450px;
+  max-width: 450px;
+
+}
+
+/** Dispositivos Mac */
+
+.mac-1 {
+  width: 30%;
+  border-style: solid;
+  border-radius: 15%;
+  border-color: white;
+  background-color: white;
+  margin-right: 60px;
+  padding-top: 10px;
+  margin-top: 650px;
+  padding-bottom: 5px;
+  padding-right: 0px;
+  margin-left: 50px;
+  box-shadow: 20px 20px 50px grey;
+  padding-left: 0px;
+  padding-right: 0px;
+  min-width: 450px;
+  max-width: 450px;
+
+}
+
+
+
+.mac-2 {
+  width: 30%;
+  border-style: solid;
+  border-radius: 15%;
+  border-color: white;
+  background-color: white;
+  margin-right: 10px;
+  padding-top: 10px;
+  margin-top: -620px;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+  padding-right: 20px;
+  display: inline-block;
+  margin-left: -50px;
+  margin-left: 550px;
+  box-shadow: 20px 20px 50px grey;
+  padding-left: 5px;
+  padding-bottom: -90px;
+  margin-left: 550px;
+  padding-left: 0px;
+  padding-right: 0px;
+  min-width: 450px;
+  max-width: 450px;
+
+}
+
+
+
+.mac-3 {
+  width: 30%;
+  border-style: solid;
+  border-radius: 15%;
+  border-color: white;
+  background-color: white;
+  margin-right: 10px;
+  padding-top: 10px;
+  margin-top: -620px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  padding-right: 0px;
+  display: inline-block;
+  margin-left: 850px;
+  box-shadow: 20px 20px 50px grey;
+  padding-left: 5px;
+  padding-bottom: 0px;
+  margin-top: -630px;
+  margin-left: 1070px;
+  padding-left: 0px;
+  padding-right: 0px;
+  min-width: 450px;
+  max-width: 450px;
+
+}
+
+.mac-4 {
+  width: 30%;
+  border-style: solid;
+  border-radius: 15%;
+  border-color: white;
+  background-color: white;
+  margin-right: 10px;
+  padding-top: 10px;
+  margin-top: 50px;
+  padding-bottom: 5px;
+  padding-right: 0px;
+  display: inline-block;
+  margin-left: 50px;
+  box-shadow: 20px 20px 50px grey;
+  padding-left: 0px;
+  padding-right: 0px;
+  min-width: 450px;
+  max-width: 450px;
+
+
+
+}
+
+.mac-5 {
+  width: 30%;
+  border-style: solid;
+  border-radius: 15%;
+  border-color: white;
+  background-color: white;
+  margin-right: 10px;
+  padding-top: 10px;
+  margin-top: -630px;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+  padding-right: 0px;
+  display: inline-block;
+  box-shadow: 20px 20px 50px grey;
+  margin-left: 550px;
+  padding-left: 0px;
+  padding-right: 0px;
+  min-width: 450px;
+  max-width: 450px;
+
+
+}
+
+.mac-6 {
+  width: 30%;
+  border-style: solid;
+  border-radius: 15%;
+  border-color: white;
+  background-color: white;
+  margin-right: 10px;
+  padding-top: 10px;
+  margin-top: -650px;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  padding-right: 0px;
+  display: inline-block;
+  margin-left: 80px;
+  box-shadow: 20px 20px 50px grey;
+  margin-left: 1070px;
+  padding-left: 0px;
+  padding-right: 0px;
+  min-width: 450px;
+  max-width: 450px;
+
+}
+
+.popup{
+  box-shadow: 20px 20px 50px grey;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-color: none;
+  color: none;
+  border-style: none;
+}
+
+img.logo-13{
+  margin-left: -215px;
+  margin-top: 375px;
+  margin-bottom: -500px;
+  position: absolute;
+
+}
+
+img.logo-13-n{
+  margin-left: -195px;
+  margin-top: -20px;
+  margin-bottom: -500px;
+  position: absolute;
+
+}
+
+.logo-m1{
+  margin-left: 655px;
+  margin-right: 75%;
+  padding-top: 200px;
+  padding-bottom: 20px;
+  margin-bottom: -30px;
+  display: inline-block;
+
+}
+
+img.logo-intel{
+  margin-left: -2%;
+  margin-right: 75%;
+  margin-top: -50px;
+  margin-bottom: 1050px;
+  position: absolute;
+
+}
+
+
+
+#comprar{
+  background-color: white;
+  font-size: 20px;
+  color: black;
+  border-color: lightblue;
+  border-style:  groove;
+  box-shadow: 50px;
+  border-width: 5px;
+  width: 100px;
+  height: 100px;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 70%;
+  opacity: 0.65;
+}
+
+img.icono {
+  margin-left: 5px;
+  margin-top: 2px;
+  display: flex;
+}
+
+
+
+.selling-price{
+  display: flex;
+  margin-top:80px;
+  margin-bottom: -120px;
+  font-size: 15px ;
+  margin-right: 90%;
+  margin-left: 10%;
+  color: orange;
+
+}
+
+.descripcion-1{
+  font-size: 28px;
+  font-weight: bold;;
+}
+
+p.selling-price-2{
+  display: block;
+  font-size: 500;
+  font-weight: 100;
+}
+
+#comprar-2{
+  display: block;
+}
+
+
+/** Popup code */
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 350px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+.popuptext{
+  display: inline;
+}
