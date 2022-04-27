@@ -47,7 +47,6 @@ footer {
 .banner {
   border-style: none;
   margin-bottom: -130px;
-  float:  inherit;
 }
 
 
@@ -79,7 +78,6 @@ footer {
     font-family: sans-serif;
     background-color: #3B3B38;
     opacity: 1.5;
-    height: auto;
     width: 100%;
     box-shadow: 20px 20px 50px grey;
 
@@ -110,7 +108,7 @@ footer {
 
 .navbar ul{
   list-style: none;
-  float: left;
+  display: flex;
   padding-left: 50px;
   padding-right: 50px;
 
@@ -142,6 +140,10 @@ footer {
 
 }
 
+.logo{
+  padding-left: 80px;
+  padding-right: 110px;
+}
 
 .search {
   margin-left: 550px;
@@ -164,31 +166,11 @@ footer {
 
 .steve{
   margin-left: 75%;
-  margin-top: 50%;
+  margin-top: 0%;
   opacity: 0.7;
   display: flex;
   align-content: center;
 
-}
-
-.cite{
-  margin-left: 90px;
-  margin-right: 3px;
-  margin-bottom: -90px;
-  border-style: none;
-  background-color: none;
-  margin-right: 50px;
-  width: 100px;
-  padding-top: 50px;
-  display: inline-block;
-  padding-bottom: -55px;
-  padding-right: 0px;
-  color: white;
-  min-width: 500px;
-  max-width: 220px;
-  padding-left: 10px;
-  padding-right: 15px;
-  text-align: center;
 }
 
 .player {
@@ -197,7 +179,6 @@ footer {
   padding-top: 10px;
   padding-bottom: 10%;
   background-color: #EFEFE9;
-  float: left
   top: 3px;
   opacity: 1.0;
   height: 0px;
@@ -227,9 +208,9 @@ img.anuncio{
   width: 320px;
   height: 140px;
   margin: auto;
-  float: left ;
- margin-top: -425px;
-  margin-left: 70%;
+  position: absolute;
+  margin-top: -425px;
+  margin-left: 220px;
   margin-right: 100%;
   padding-bottom: 5px;
   margin-bottom: 50px;
@@ -273,7 +254,6 @@ white-space: pre;
 
 footer {
   margin-top: : 5%;
-  width: 100%;
 }
 
 footer cite{
@@ -302,9 +282,6 @@ img.ipad{
 }
 
 .iphones {
-  margin-left: 90px;
-  margin-right: 3px;
-  margin-bottom: 30px;
   border-style: solid;
   border-radius: 15%;
   border-color: white;
@@ -315,11 +292,10 @@ img.ipad{
   padding-bottom: 5px;
   padding-right: 0px;
   box-shadow: 20px 20px 50px grey;
-  min-width: 220px;
-  max-width: 220px;
+  min-width: 350px;
+  max-width: 350px;
   padding-left: 10px;
   padding-right: 15px;
-  text-align: center;
 
 }
 
