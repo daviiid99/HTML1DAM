@@ -1,13 +1,70 @@
 body {
-  background-color: rgb(0,200,255, 0.5);
-  background-image: url(https://media3.giphy.com/media/xUA7bibMNQQqk2U46s/giphy.gif?cid=790b7611927c1cb6df76d3a137f0af1bf9071da482f7ef81&rid=giphy.gif&ct=g);
+  background-color: white;
   /*  #00c8ff // hsl(192, 100%, 50%)  */
-  opacity: 0.5;
 
   font-family: monospace;
   color: blue;
   text-align: center;
 
+}
+
+.navegador{
+  display: flex;
+  text-align: center;
+  border-color: darkblue;
+
+}
+
+.text{
+  border-style: solid;
+  background-color: lightblue;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+.navegador ul{
+  display:  flex;
+  border-style: solid;
+  paddiong:  5px;
+  list-style: none;
+  display: flex;
+}
+
+.navegador a {
+  padding: 5px;
+  text-decoration: none;
+  text-align: center;
+  align-content: center;
+}
+
+.text li {
+  padding: 5px;
+  text-decoration: none;
+  text-align: center;
+  align-content: center;
+}
+
+#contenedor{
+  border-style:  solid;
+  border-color: darkblue;
+  width:  100%;
+
+}
+
+.articulo{
+text-align: center;
+padding: 5px;
+border-color: darkblue;
+border-style: solid;
+margin: 10px;
+max-width: 150px;
+float: left;
+}
+
+img.img {
+  width: 150px;
+  height: 150px;
 }
 
 h1 {
@@ -35,3 +92,14 @@ p.par{
     text-align: right;
     border: 5px dotted violet;
 }
+
+#pie{
+  text-align: center;
+  float: left;
+  width: 100%;
+  background-color: lightblue;
+  padding: 10px;
+
+}
+
+
