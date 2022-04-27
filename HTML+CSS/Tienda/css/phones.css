@@ -2,8 +2,8 @@
 body {
   background-color: black;
   color : white;
-  width:auto;
-  height:auto;
+  width:100%;
+  height:100%;
   margin: auto;
   background-color: #EFEFE9;
 }
@@ -16,12 +16,12 @@ body {
 }
 
 header {
-  width:auto;
+  width:100%;
   height:auto;
 }
 
 footer {
-  width:auto;
+  width:100%;
 
 }
 
@@ -30,34 +30,74 @@ footer {
 }
 
 .cabecera {
-  width:auto;
-  height:auto;
-  text-align: center;
+  float: left;
+  width:100%;
+  text-align: left;
   font-family: sans-serif;
   padding: 10px;
-  height: 40px;
+  height: 30%;
   background-color: #2D2D2B;
   opacity: 1.5;
-  width: 100%;
   margin: 0px 0px 10px;
-  box-shadow: 20px 20px 50px grey;
 
+}
+
+.cabecera ul{
+    width: 100%;
+    float: left;
+
+}
+
+li a {
+  width: auto;
+  height: auto;
+}
+
+.test {
+  width: 50px;
+  float: 50px;
+}
+
+.test img {
+  width: 30px;
+  height: 30px;
+}
+
+.test li {
+  float: left;
+  width: auto;
 }
 
 .banner {
   border-style: none;
-  margin-bottom: -130px;
+  margin-bottom: 40%;
+  width: auto;
+}
+
+.banner-iphone {
+  border-style: none;
+  margin-bottom: 60%;
+  width: auto;
+}
+
+
+.banner-ipad {
+  margin-top: -20px;
+  border-style: none;
+  margin-bottom: 50%;
+  width: auto;
 }
 
 
 .banner-mac {
   border-style: none;
-  margin-bottom: -300px;
+  margin-bottom: 520px;
 }
 
 .cabecera ul{
   list-style: none;
   display: flex;
+  width: 100%;
 }
 
 .cabecera ul a{
@@ -66,11 +106,13 @@ footer {
   margin-left: 30px;
   margin-right: 30px;
   margin-bottom:222px;
+  width: 100%;
 }
 
 .cabecera ul img {
   margin-top: 10px;
   margin-top: -5px;
+
 }
 
 .pie {
@@ -79,51 +121,73 @@ footer {
     background-color: #3B3B38;
     opacity: 1.5;
     width: 100%;
+    float: left;
     box-shadow: 20px 20px 50px grey;
+
+}
+
+.cita{
+  text-align: center;
+  width: auto;
+  margin-top: -190px;
+  margin-left: 150px;
+  float: left;
 
 }
 
 
 .macos {
-    text-align: center;
-    font-family: sans-serif;
-    background-image: url(../src/m1-fondo.jpg);
-    background-size: cover;
-    opacity: 1.5;
-    width: 100%;
+  background-image: url(../src/m1-fondo.jpg);
+  background-size: cover;
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #3B3B38;
+  opacity: 1.5;
+  width: 100%;
+  float: left;
+  box-shadow: 20px 20px 50px grey;
 }
 
 .navbar{
-  text-align: center;
   font-family: sans-serif ;
   font-style: normal;
   font-weight: bolder;
   background-color: #EFEFE9;
+  text-align: center;
+
   border-style :  none;
   border-color : grey;
   border-radius: 0%;
   margin: 10px 20px 0px 20px;
   opacity: 0.9;
+  float: left;
+  width: 100%;
 }
 
 .navbar ul{
   list-style: none;
-  display: flex;
   padding-left: 50px;
   padding-right: 50px;
 
 }
 
-.navbar p{
+.title{
   color: black;
-  font-size: 50px;
+  font-size: 45px;
   text-align: left;
+  display: inline;
+  float: left;
 }
 
-.navbar img{
-  margin-left: 50px;
-  margin-right: 50px;
 
+.navbar img{
+  text-align: center;
+
+}
+
+.phone{
+  margin-left: 0px;
+  margin-right: 50px;
 }
 
 .navbar{
@@ -141,8 +205,8 @@ footer {
 }
 
 .logo{
-  padding-left: 80px;
-  padding-right: 110px;
+  text-align: center;
+
 }
 
 .search {
@@ -170,7 +234,16 @@ footer {
   opacity: 0.7;
   display: flex;
   align-content: center;
+  font-size-adjust: auto;
+  width: auto;
+  float: inherit;
 
+}
+
+.cita {
+  width: auto;
+  font-size-adjust: auto;
+   text-shadow: 3px 3px black;
 }
 
 .player {
@@ -182,7 +255,7 @@ footer {
   top: 3px;
   opacity: 1.0;
   height: 0px;
-  width: 50px;
+  width: 0px;
 }
 
 .icono {
@@ -235,20 +308,19 @@ white-space: pre;
 }
 
 .macbook{
-  position: absolute;
-  top: 50px;
-  left: 728px;
-  top: 100px;
+  float: left;
+  margin-top: 10px;
   margin-bottom: : 20%;
+  width: 50%;
+  height: 30%;
 
 }
 
 .ip{
-  position: absolute;
-  top: 50px;
-  left: 620px;
-  top: -100px;
-  margin-bottom: : 20%;
+  float: left;
+  width: 50%;
+  height: 50%;
+
 
 }
 
@@ -272,13 +344,10 @@ img.mac{
 }
 
 img.ipad{
-  position: absolute;
-  top: 50px;
-  left: 620px;
-  top: -100px;
-  margin-bottom: : 20%;
-  margin-top: 210px;
-  margin-left: 250px;
+  float: left;
+  width:50%;
+  height: 70%;
+
 }
 
 .iphones {
@@ -288,160 +357,150 @@ img.ipad{
   background-color: white;
   margin-right: 50px;
   padding-top: 10px;
-  display: inline-block;
   padding-bottom: 5px;
+  margin-bottom: 30px;
   padding-right: 0px;
   box-shadow: 20px 20px 50px grey;
-  min-width: 350px;
-  max-width: 350px;
+  min-width: 300px;
+  max-width: 300px;
   padding-left: 10px;
   padding-right: 15px;
+  float: left;
+  text-align: center;
 
+}
+
+img {
+  align: center;
 }
 
 /** Dispositivos Iphone */
 
 .iphones-1 {
-  width: 30%;
   border-style: solid;
   border-radius: 15%;
   border-color: white;
   background-color: white;
-  margin-right: 60px;
+  margin-right: 50px;
   padding-top: 10px;
-  margin-top: 400px;
-  padding-bottom: 5px;
+  padding-bottom:-65px;
+  margin-bottom: 30px;
   padding-right: 0px;
-  margin-left: 50px;
   box-shadow: 20px 20px 50px grey;
-  padding-left: 0px;
-  padding-right: 0px;
-  min-width: 350px;
+  min-width: 300px;
   max-width: 300px;
+  padding-left: 10px;
+  padding-right: 15px;
+  float: left;
+  text-align: center;
+  margin-bottom: 20px;
 
 }
 
 
 
 .iphones-2 {
-  width: 30%;
   border-style: solid;
   border-radius: 15%;
   border-color: white;
   background-color: white;
-  margin-right: 10px;
+  margin-right: 50px;
   padding-top: 10px;
-  margin-top: -620px;
-  padding-bottom: 10px;
-  margin-bottom: 5px;
-  padding-right: 20px;
-  display: inline-block;
-  margin-left: -50px;
-  margin-left: 450px;
-  box-shadow: 20px 20px 50px grey;
-  padding-left: 5px;
-  padding-bottom: -90px;
-  margin-left: 520px;
-  padding-left: 0px;
+  padding-bottom:-65px;
+  margin-bottom: 30px;
   padding-right: 0px;
-  min-width: 350px;
+  box-shadow: 20px 20px 50px grey;
+  min-width: 300px;
   max-width: 300px;
+  padding-left: 10px;
+  padding-right: 15px;
+  float: left;
+  text-align: center;
+  margin-bottom: 20px;
 
 }
 
 .iphones-3 {
-  width: 30%;
   border-style: solid;
   border-radius: 15%;
   border-color: white;
   background-color: white;
-  margin-right: 10px;
+  margin-right: 50px;
   padding-top: 10px;
-  margin-top: -620px;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
+  padding-bottom:-65px;
+  margin-bottom: 30px;
   padding-right: 0px;
-  display: inline-block;
-  margin-left: 850px;
   box-shadow: 20px 20px 50px grey;
-  padding-left: 5px;
-  padding-bottom: 0px;
-  margin-top: -630px;
-  margin-left: 990px;
-  padding-left: 0px;
-  padding-right: 0px;
-  min-width: 350px;
+  min-width: 300px;
   max-width: 300px;
+  padding-left: 10px;
+  padding-right: 15px;
+  float: left;
+  text-align: center;
+  margin-bottom: 20px;
 
 }
 
 .iphones-4 {
-  width: 30%;
   border-style: solid;
   border-radius: 15%;
   border-color: white;
   background-color: white;
-  margin-right: 10px;
+  margin-right: 50px;
   padding-top: 10px;
-  margin-top: 0px;
-  padding-bottom: 5px;
+  padding-bottom:-65px;
+  margin-bottom: 30px;
   padding-right: 0px;
-  display: inline-block;
-  margin-left: 50px;
   box-shadow: 20px 20px 50px grey;
-  padding-left: 0px;
-  padding-right: 0px;
-  min-width: 350px;
+  min-width: 300px;
   max-width: 300px;
-
-
+  padding-left: 10px;
+  padding-right: 15px;
+  float: left;
+  text-align: center;
+  margin-bottom: 20px;
 
 }
 
 .iphones-5 {
-  width: 30%;
   border-style: solid;
   border-radius: 15%;
   border-color: white;
   background-color: white;
-  margin-right: 10px;
+  margin-right: 50px;
   padding-top: 10px;
-  margin-top: -620px;
-  padding-bottom: 10px;
-  margin-bottom: 5px;
+  padding-bottom:-65px;
+  margin-bottom: 30px;
   padding-right: 0px;
-  display: inline-block;
-  margin-left: 450px;
   box-shadow: 20px 20px 50px grey;
-  margin-left: 520px;
-  padding-left: 0px;
-  padding-right: 0px;
-  min-width: 350px;
+  min-width: 300px;
   max-width: 300px;
-
+  padding-left: 10px;
+  padding-right: 15px;
+  float: left;
+  text-align: center;
+  margin-bottom: 20px;
 
 }
 
 .iphones-6 {
-  width: 30%;
   border-style: solid;
   border-radius: 15%;
   border-color: white;
   background-color: white;
-  margin-right: 10px;
+  margin-right: 50px;
   padding-top: 10px;
-  margin-top: -620px;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
+  padding-bottom:-65px;
+  margin-bottom: 30px;
   padding-right: 0px;
-  display: inline-block;
-  margin-left: 80px;
   box-shadow: 20px 20px 50px grey;
-  margin-left: 990px;
-  padding-left: 0px;
-  padding-right: 0px;
-  min-width: 350px;
+  min-width: 300px;
   max-width: 300px;
+  padding-left: 10px;
+  padding-right: 15px;
+  float: left;
+  text-align: center;
+  margin-bottom: 20px;
 
 }
 
@@ -449,297 +508,336 @@ img.ipad{
 
 
 .ipad-1 {
-  width: 30%;
   border-style: solid;
   border-radius: 15%;
   border-color: white;
   background-color: white;
-  margin-right: 60px;
+  margin-right: 50px;
   padding-top: 10px;
-  margin-top: 400px;
-  padding-bottom: 5px;
+  padding-bottom:-65px;
+  margin-bottom: 30px;
   padding-right: 0px;
-  margin-left: 50px;
   box-shadow: 20px 20px 50px grey;
-  padding-left: 0px;
-  padding-right: 0px;
-  min-width: 450px;
-  max-width: 450px;
+  min-width: 300px;
+  max-width: 300px;
+  padding-left: 10px;
+  padding-right: 15px;
+  float: left;
+  text-align: center;
+  margin-bottom: 20px;
 
 }
 
+.ipad1 img {
+  width: 350px;
+  height: 250px;
+  text-align: left;
+}
 
 
 .ipad-2 {
-  width: 30%;
   border-style: solid;
   border-radius: 15%;
   border-color: white;
   background-color: white;
-  margin-right: 10px;
+  margin-right: 50px;
   padding-top: 10px;
-  margin-top: -620px;
-  padding-bottom: 10px;
-  margin-bottom: 5px;
-  padding-right: 20px;
-  display: inline-block;
-  margin-left: -50px;
-  margin-left: 450px;
-  box-shadow: 20px 20px 50px grey;
-  padding-left: 5px;
-  padding-bottom: -90px;
-  margin-left: 520px;
-  padding-left: 0px;
+  padding-bottom:-65px;
+  margin-bottom: 30px;
   padding-right: 0px;
-  min-width: 450px;
-  max-width: 450px;
+  box-shadow: 20px 20px 50px grey;
+  min-width: 300px;
+  max-width: 300px;
+  padding-left: 10px;
+  padding-right: 15px;
+  float: left;
+  text-align: center;
+  margin-bottom: 20px;
 
+}
+
+.ipad2 img {
+  width: 350px;
+  height: 250px;
+  text-align: left;
 }
 
 
 
 .ipad-3 {
-  width: 30%;
   border-style: solid;
   border-radius: 15%;
   border-color: white;
   background-color: white;
-  margin-right: 10px;
+  margin-right: 50px;
   padding-top: 10px;
-  margin-top: -620px;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
+  padding-bottom:-65px;
+  margin-bottom: 30px;
   padding-right: 0px;
-  display: inline-block;
-  margin-left: 850px;
   box-shadow: 20px 20px 50px grey;
-  padding-left: 5px;
-  padding-bottom: 0px;
-  margin-top: -630px;
-  margin-left: 990px;
-  padding-left: 0px;
-  padding-right: 0px;
-  min-width: 450px;
-  max-width: 450px;
+  min-width: 300px;
+  max-width: 300px;
+  padding-left: 10px;
+  padding-right: 15px;
+  float: left;
+  text-align: center;
+  margin-bottom: 20px;
 
 }
+
+.ipad3 img {
+  width: 350px;
+  height: 250px;
+  text-align: left;
+}
+
 
 .ipad-4 {
-  width: 30%;
   border-style: solid;
   border-radius: 15%;
   border-color: white;
   background-color: white;
-  margin-right: 10px;
+  margin-right: 50px;
   padding-top: 10px;
-  margin-top: 0px;
-  padding-bottom: 5px;
+  padding-bottom:-65px;
+  margin-bottom: 30px;
   padding-right: 0px;
-  display: inline-block;
-  margin-left: 50px;
   box-shadow: 20px 20px 50px grey;
-  padding-left: 0px;
-  padding-right: 0px;
-  min-width: 450px;
-  max-width: 450px;
-
-
+  min-width: 300px;
+  max-width: 300px;
+  padding-left: 10px;
+  padding-right: 15px;
+  float: left;
+  text-align: center;
+  margin-bottom: 20px;
 
 }
+
+.ipad4 img {
+  width: 150px;
+  height: 150px;
+  text-align: left;
+}
+
 
 .ipad-5 {
-  width: 30%;
   border-style: solid;
   border-radius: 15%;
   border-color: white;
   background-color: white;
-  margin-right: 10px;
+  margin-right: 50px;
   padding-top: 10px;
-  margin-top: -620px;
-  padding-bottom: 10px;
-  margin-bottom: 5px;
+  padding-bottom:-65px;
+  margin-bottom: 30px;
   padding-right: 0px;
-  display: inline-block;
-  margin-left: 450px;
   box-shadow: 20px 20px 50px grey;
-  margin-left: 520px;
-  padding-left: 0px;
-  padding-right: 0px;
-  min-width: 450px;
-  max-width: 450px;
-
+  min-width: 300px;
+  max-width: 300px;
+  padding-left: 10px;
+  padding-right: 15px;
+  float: left;
+  text-align: center;
+  margin-bottom: 20px;
 
 }
+
+.ipad5 img {
+  width: 350px;
+  height: 250px;
+  text-align: left;
+}
+
 
 .ipad-6 {
-  width: 30%;
   border-style: solid;
   border-radius: 15%;
   border-color: white;
   background-color: white;
-  margin-right: 10px;
+  margin-right: 50px;
   padding-top: 10px;
-  margin-top: -635px;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
+  padding-bottom:-65px;
+  margin-bottom: 30px;
   padding-right: 0px;
-  display: inline-block;
-  margin-left: 80px;
   box-shadow: 20px 20px 50px grey;
-  margin-left: 990px;
-  padding-left: 0px;
-  padding-right: 0px;
-  min-width: 450px;
-  max-width: 450px;
+  min-width: 300px;
+  max-width: 300px;
+  padding-left: 10px;
+  padding-right: 15px;
+  float: left;
+  text-align: center;
+  margin-bottom: 20px;
 
 }
+
+.ipad6 img {
+  width: 350px;
+  height: 250px;
+  text-align: left;
+}
+
 
 /** Dispositivos Mac */
 
 .mac-1 {
-  width: 30%;
   border-style: solid;
   border-radius: 15%;
   border-color: white;
   background-color: white;
-  margin-right: 60px;
+  margin-right: 50px;
   padding-top: 10px;
-  margin-top: 650px;
-  padding-bottom: 5px;
+  padding-bottom:-65px;
+  margin-bottom: 30px;
   padding-right: 0px;
-  margin-left: 50px;
   box-shadow: 20px 20px 50px grey;
-  padding-left: 0px;
-  padding-right: 0px;
-  min-width: 450px;
-  max-width: 450px;
+  min-width: 300px;
+  max-width: 300px;
+  padding-left: 10px;
+  padding-right: 15px;
+  float: left;
+  text-align: center;
+  margin-bottom: 20px;
+
 
 }
 
-
+.mac1 {
+  width : 300px;
+  height: 150px;
+}
 
 .mac-2 {
-  width: 30%;
   border-style: solid;
   border-radius: 15%;
   border-color: white;
   background-color: white;
-  margin-right: 10px;
+  margin-right: 50px;
   padding-top: 10px;
-  margin-top: -620px;
-  padding-bottom: 10px;
-  margin-bottom: 5px;
-  padding-right: 20px;
-  display: inline-block;
-  margin-left: -50px;
-  margin-left: 550px;
-  box-shadow: 20px 20px 50px grey;
-  padding-left: 5px;
-  padding-bottom: -90px;
-  margin-left: 550px;
-  padding-left: 0px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
   padding-right: 0px;
-  min-width: 450px;
-  max-width: 450px;
+  box-shadow: 20px 20px 50px grey;
+  min-width: 300px;
+  max-width: 300px;
+  padding-left: 10px;
+  padding-right: 15px;
+  float: left;
+  text-align: center;
 
 }
 
+.mac2 {
+  width : 280px;
+  height: 145px;
+}
 
 
 .mac-3 {
-  width: 30%;
   border-style: solid;
   border-radius: 15%;
   border-color: white;
   background-color: white;
-  margin-right: 10px;
+  margin-right: 50px;
   padding-top: 10px;
-  margin-top: -620px;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
   padding-right: 0px;
-  display: inline-block;
-  margin-left: 850px;
   box-shadow: 20px 20px 50px grey;
-  padding-left: 5px;
-  padding-bottom: 0px;
-  margin-top: -630px;
-  margin-left: 1070px;
-  padding-left: 0px;
-  padding-right: 0px;
-  min-width: 450px;
-  max-width: 450px;
+  min-width: 300px;
+  max-width: 300px;
+  padding-left: 10px;
+  padding-right: 15px;
+  float: left;
+  text-align: center;
 
+}
+
+.mac3 {
+  width : 160px;
+  height: 160px;
 }
 
 .mac-4 {
-  width: 30%;
   border-style: solid;
   border-radius: 15%;
   border-color: white;
   background-color: white;
-  margin-right: 10px;
+  margin-right: 50px;
   padding-top: 10px;
-  margin-top: 50px;
   padding-bottom: 5px;
+  margin-bottom: 30px;
   padding-right: 0px;
-  display: inline-block;
-  margin-left: 50px;
   box-shadow: 20px 20px 50px grey;
-  padding-left: 0px;
-  padding-right: 0px;
-  min-width: 450px;
-  max-width: 450px;
+  min-width: 300px;
+  max-width: 300px;
+  padding-left: 10px;
+  padding-right: 15px;
+  float: left;
+  text-align: center;
 
 
 
 }
+
+
+.mac4 {
+  width : 280px;
+  height: 175px;
+}
+
 
 .mac-5 {
-  width: 30%;
   border-style: solid;
   border-radius: 15%;
   border-color: white;
   background-color: white;
-  margin-right: 10px;
+  margin-right: 50px;
   padding-top: 10px;
-  margin-top: -630px;
-  padding-bottom: 10px;
-  margin-bottom: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
   padding-right: 0px;
-  display: inline-block;
   box-shadow: 20px 20px 50px grey;
-  margin-left: 550px;
-  padding-left: 0px;
-  padding-right: 0px;
-  min-width: 450px;
-  max-width: 450px;
-
+  min-width: 300px;
+  max-width: 300px;
+  padding-left: 10px;
+  padding-right: 15px;
+  float: left;
+  text-align: center;
 
 }
+
+
+.mac5 {
+  width : 280px;
+  height: 175px;
+}
+
 
 .mac-6 {
-  width: 30%;
   border-style: solid;
   border-radius: 15%;
   border-color: white;
   background-color: white;
-  margin-right: 10px;
+  margin-right: 50px;
   padding-top: 10px;
-  margin-top: -650px;
   padding-bottom: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   padding-right: 0px;
-  display: inline-block;
-  margin-left: 80px;
   box-shadow: 20px 20px 50px grey;
-  margin-left: 1070px;
-  padding-left: 0px;
-  padding-right: 0px;
-  min-width: 450px;
-  max-width: 450px;
+  min-width: 300px;
+  max-width: 300px;
+  padding-left: 10px;
+  padding-right: 15px;
+  float: left;
+  text-align: center;
 
 }
+
+
+.mac6 {
+  width : 280px;
+  height: 175px;
+}
+
 
 .popup{
   box-shadow: 20px 20px 50px grey;
@@ -812,15 +910,19 @@ img.icono {
 
 
 
-.selling-price{
-  display: flex;
+.selling-price {
+  float: left;
   margin-top:80px;
   margin-bottom: -120px;
-  font-size: 15px ;
+  font-size: 32px ;
   margin-right: 90%;
   margin-left: 10%;
-  color: orange;
+  color: grey;
 
+}
+
+.selling-price p {
+  font-size: 10;
 }
 
 .descripcion-1{
@@ -899,4 +1001,9 @@ p.selling-price-2{
 
 .popuptext{
   display: inline;
+}
+
+.youtube{
+  width: 100%;
+  height: 530px;
 }
