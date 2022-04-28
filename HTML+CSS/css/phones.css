@@ -97,6 +97,13 @@ footer {
     width: 100%;
 }
 
+.steve-footer{
+    text-align: center;
+    font-family: sans-serif;
+    opacity: 1.5;
+    width: 100%;
+}
+
 .navbar{
   text-align: center;
   font-family: sans-serif ;
