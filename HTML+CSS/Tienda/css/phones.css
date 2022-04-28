@@ -183,10 +183,8 @@ li a {
   font-family: sans-serif;
   font-size: 15px;
   background-color: #EFEFE9;
-  opacity: 1.5;
   width: 100%;
   float: left;
-  box-shadow: 20px 20px 50px grey;
 }
 
 .navbar{
