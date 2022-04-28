@@ -178,6 +178,16 @@ li a {
   box-shadow: 20px 20px 50px grey;
 }
 
+.steve-footer{
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #3B3B38;
+  opacity: 1.5;
+  width: 100%;
+  float: left;
+  box-shadow: 20px 20px 50px grey;
+}
+
 .navbar{
   font-family: sans-serif ;
   font-style: normal;
