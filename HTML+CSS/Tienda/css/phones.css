@@ -1051,3 +1051,9 @@ p.selling-price-2{
   height: 530px;
   max-width: 720px;
 }
+
+.logo {
+    text-align: center;
+    width: 30px;
+    height: 35px;
+}
