@@ -93,6 +93,12 @@ li a {
   width: auto;
 }
 
+.banner-main {
+  border-style: none;
+  margin-bottom: 10%;
+  width: auto;
+}
+
 .banner-iphone {
   border-style: none;
   margin-bottom: 60%;
@@ -367,6 +373,10 @@ img.ipad{
   width:50%;
   height: 70%;
 
+}
+
+.iphone{
+    margin-bottom: 2px;
 }
 
 .iphones {
