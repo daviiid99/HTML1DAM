@@ -20,6 +20,16 @@ header {
   height:auto;
 }
 
+.header a:hover {
+  background-color: black;
+  color: orange;
+}
+
+.logo a:hover {
+  background-color: black;
+  color: orange;
+}
+
 footer {
   width:100%;
 
