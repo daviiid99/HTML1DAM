@@ -1,0 +1,15 @@
+# Enlaces usados en el proyecto
+
+https://dynamics.microsoft.com/es-es/erp/define-erp/#:~:text=Definici%C3%B3n%20de%20ERP,suministro%2C%20recursos%20humanos%20y%20operaciones.
+
+https://www.ekon.es/tipos-de-erp/
+
+https://ofbiz.apache.org/
+
+https://github.com/apache/ofbiz-framework
+
+https://www.einforma.com/informacion-empresa/corte-ingles
+
+https://www.elcorteingles.es/informacioncorporativa/es/comunicacion/notas-de-prensa/el-corte-ingles-impulsara-su-expansion-internacional-online-de-la-mano-de-aliexpress.html
+
+https://amp.expansion.com/empresas/distribucion/2021/02/14/60296af0e5fdea4d2d8b456f.html
